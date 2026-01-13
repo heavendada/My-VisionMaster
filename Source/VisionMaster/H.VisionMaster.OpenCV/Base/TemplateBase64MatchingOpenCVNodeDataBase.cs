@@ -1,0 +1,22 @@
+﻿// Copyright (c) HeBianGu Authors. All Rights Reserved. 
+// Author: HeBianGu 
+// Github: https://github.com/HeBianGu/WPF-Control 
+// Document: https://hebiangu.github.io/WPF-Control-Docs  
+// QQ:908293466 Group:971261058 
+// bilibili: https://space.bilibili.com/370266611 
+// Licensed under the MIT License (the "License")
+
+namespace H.VisionMaster.OpenCV.Base;
+
+public abstract class OpenCVBase64MatchingNodeDataBase : Base64MatchingNodeData<Mat>
+{
+    protected override void UpdateResultImageSource()
+    {
+        this.ResultImageSource = this.Mat.ToImageSource();
+    }
+    protected override bool IsValid(Mat t)
+    {
+        return t.IsValid();
+    }
+}
+

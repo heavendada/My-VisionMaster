@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\WPF-Control\Source\Modules\H.Modules.Project\H.Modules.Project.csproj" />
+    <ProjectReference Include="..\..\WPF-Control\Source\Services\H.Services.Project\H.Services.Project.csproj" />
+    <ProjectReference Include="..\H.VisionMaster.DiagramData\H.VisionMaster.DiagramData.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <ItemGroup>
+    <PackageReference Include="NModbus" Version="3.0.81" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\H.VisionMaster.NodeData\H.VisionMaster.NodeData.csproj" />
+    <ProjectReference Include="..\H.VisionMaster.NodeGroup\H.VisionMaster.NodeGroup.csproj" />
+  </ItemGroup>
+</Project>

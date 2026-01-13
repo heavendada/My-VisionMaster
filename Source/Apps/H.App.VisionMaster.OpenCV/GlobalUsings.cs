@@ -1,0 +1,27 @@
+﻿global using H.App.VisionMaster.OpenCV.DiagramDatas;
+global using H.App.VisionMaster.OpenCV.NodeDatas;
+global using H.Common.Attributes;
+global using H.Common.Interfaces;
+global using H.Controls.Diagram.Presenter.DiagramDatas;
+global using H.Controls.Diagram.Presenter.DiagramDatas.Base;
+global using H.Extensions.Common;
+global using H.Extensions.FontIcon;
+global using H.Extensions.NewtonsoftJson;
+global using H.Modules.Project;
+global using H.Mvvm.ViewModels.Base;
+global using H.NodeDatas.Onnx.OpenCV.NodeDataGroups;
+global using H.Services.Message;
+global using H.VisionMaster.OpenCV.NodeDataGroups;
+global using Microsoft.Extensions.Options;
+global using System;
+global using System.Collections.Generic;
+global using System.ComponentModel.DataAnnotations;
+global using System.IO;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using System.Windows;
+global using System.Windows.Controls;
+global using H.NodeDatas.Zoo.NodeDatas;
+global using H.VisionMaster.OpenCV.Base;
+global using H.VisionMaster.NodeGroup.Groups.Detector;
+
